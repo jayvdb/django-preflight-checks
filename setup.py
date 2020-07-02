@@ -9,7 +9,7 @@ setup(
     url='http://github.com/bpeschier/django-preflight-checks',
     author="Bas Peschier",
     author_email="bpeschier@fizzgig.nl",
-    packages=['preflight', ],
+    packages=['preflight', 'preflight.checks'],
     license='MIT',
     long_description=long_description,
     classifiers=[
